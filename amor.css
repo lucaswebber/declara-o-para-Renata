@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+  }
+
+h1 {
+  color: white;
+  font-size: 3em;
+  padding: 2%;
+  text-align: center;
+  margin-top: 0;
+  font-family: cursive;
+  }
+
+p {
+  color: #292424;
+  font-size: 1.5em;
+  background: #8d94a9;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 30px;
+  border: 10px;
+  border-style: double;
+  padding: 1%;
+  font-style: italic;
+  font-family: monospace;
+}
+
+main {
+    background-image: url(top.jpg);
+    height: 100%;
+}
+
+footer {
+  background: black;
+  color: floralwhite;
+  text-align: end;
+}
+
+body {
+  margin: 0;
+}
+
+div {
+  background-image: url(nutella.png);
+  border: 10px;
+  border-style: dashed;
+}
+
+.titulo2 {
+  color: black;
+  font-family: fantasy;
+  font-size: -webkit-xxx-large;
+}
+
+img {
+  margin-right: 10px;
+  margin-left: 6px;
+  border-style: solid;
+  }
+}
+
+@media (max-width: 480px) {
+   img {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+}
