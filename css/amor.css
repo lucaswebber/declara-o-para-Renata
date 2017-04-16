@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
   }
@@ -9,7 +10,7 @@ h1 {
   text-align: center;
   margin-top: 0;
   font-family: cursive;
-  }
+}
 
 p {
   color: #292424;
@@ -57,13 +58,12 @@ img {
   margin-right: 10px;
   margin-left: 6px;
   border-style: solid;
-  }
 }
 
-@media (max-width: 480px) {
-   img {
+@media screen and (max-width: 640px) {
+
+  img {
     width: 80%;
-    margin-left: 10%;
-    margin-top: 5%;
+    margin-left: 10% !important;
   }
 }
