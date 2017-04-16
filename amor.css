@@ -4,8 +4,8 @@
 
 h1 {
   color: white;
-  font-size: 40px;
-  padding: 20px;
+  font-size: 3em;
+  padding: 2%;
   text-align: center;
   margin-top: 0;
   font-family: cursive;
@@ -17,7 +17,7 @@ p {
   background: #8d94a9;
   margin-left: 20%;
   margin-right: 20%;
-  border-radius: 10px;
+  border-radius: 30px;
   border: 10px;
   border-style: double;
   padding: 1%;
@@ -53,5 +53,16 @@ div {
 }
 
 img {
-  margin-left: 32%;
+  margin-right: 10px;
+  margin-left: 6px;
+  border-style: solid;
+  }
+}
+
+@media (max-width: 480px) {
+   img {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+  }
 }
